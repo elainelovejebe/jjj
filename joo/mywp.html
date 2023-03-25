@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "styles.css">
+
+</head>
+<body>
+<body style="background-color:#639772;">
+<div class="header">
+<h2 style = "color: white">FOLKLORE</h2>
+</div>
+
+<div class="topnav">
+<a href="https://www.facebook.com/jijhell.grace?mibextid=ZbWKwL">Facebook</a>
+<a href="https://instagram.com/hellisgrace?igshid=NTE5MzUyOTU=">Instagram</a>
+<a href="https://youtube.com/@ENHYPENOFFICIAL">Youtube</a>
+<a href="https://www.ateneo.edu/ls/soss/psychology">Education</a>
+</div>
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>JIJHELL G. C.</h2>
+<h5>February 00, 1989 &nbsp - &nbsp Neverland, Okassa</h5>
+<div class="meimg" style="height:350px;"></div>
+<p>Know Me.</p>
+<p>Just like how nature is, I am a bit of a mess yet natural and abloom. Though, just like how nature is /again/, I likewise experience storms that seem to be drowning me. Life has not always been easy, yet the facade that everyone sees conceals the messiest thoughts and emotions inside. The accolades I used to consistently receive became the biggest insecurities I could ever have. But oh well, just like nature, I am at ease, at peace, and in tranquility when no one is bothering me. I like it alone.</p>
+</div>
+
+<div class="card">
+<h2>Me, Me, and Me. All about me.</h2>
+<!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="jay4.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="jay1.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="jay3.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="jay6.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="jay5.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="jay7.png" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="jay4.png" style="width:100%" onclick="currentSlide(1)" alt="Cool Kiddo">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="jay1.png" style="width:100%" onclick="currentSlide(2)" alt="Litol Achievement">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="jay3.png" style="width:100%" onclick="currentSlide(3)" alt="Thy Nature">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="jay6.png" style="width:100%" onclick="currentSlide(4)" alt="At School">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="jay5.png" style="width:100%" onclick="currentSlide(5)" alt="Them <33">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="jay7.png" style="width:100%" onclick="currentSlide(6)" alt="PC Collection">
+      </div>
+    </div>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+<p>Jijhell and her thoughts.</p>
+<p>Ever since forever, I never had any concrete plans or thoughts about my passion. I always wanted to become what I see interesting. I have tried many things, yet I excel at none. Yes, I was able to do almost everything I tried however, it wasn't enough for me to pursue such a hobby/talent. I am what they say <i>jack of all trades, master of none.</i></i>
+<br> 
+<h5><i>I want you to know</i>
+<br><i>I'm a mirrorball</i>
+<br><i>I can change everything about me to fit in</i> 
+<br><br> Mirrorball - T. Swift</h5></p>
+</div>
+<div class="card">
+<img src="coms.png" style = "width:1010px">
+</div>
+</div>
+
+<div class="rightcolumn"> 
+<div class="card">
+<h5>0001-1000</h5>
+<img src="cat.jpg" style = "width:220px">
+<h2>Objective</h2>
+<p>• Ph.D. in Psychology graduate interested in a clinical position in Cebu City. To gain more experience in clinal and counseling, planning to open a private practice. <br>
+<h2>Education</h2>
+• During my elementary and high school days, I was a consistent honor student. I graduated Bachelor of Science in Psychology at Ateneo de Manila University. I also finished my master's and Ph.D. degrees at the same school. <br>
+<h2>Employment</h2>
+• I've been a school psychologist for three years at the University of Cebu Lapu-Lapu and Mandaue. Additionally, I was a community clinic intern before.
+<h2>Other Information</h2>
+• I am interested in a specialty like social, developmental, industrial-organizational, or experimental psychology that is why I took Ph.D. in PSychology. If you wish to know more about me, visit and contact me on my socials.
+
+ </p>
+</div>
+
+<div class="card">
+<h2><33</h2>
+<img src="en3.jpg" style = "width:220px">
+<img src="cardigan.jpg" style = "width:220px">
+<img src="ty.jpg" style = "width:220px">
+<img src="nj.jpg" style = "width:220px">
+<img src="yoyoky.jpg" style = "width:220px">
+<img src="lese.jpg" style = "width:220px">
+
+</div>
+</div>
+</div>
+
+<div class="footer">
+<h6>You're on your own kid, you always have been.</h6>
+</div>
+
+</body>
+</html>
